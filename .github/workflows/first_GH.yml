@@ -6,11 +6,11 @@ jobs:
   testing:
     runs-on: ubuntu-latest
     steps:
-      - name: print hello world
-      - run: echo "hello world"
+      - name: "print hello world"
+        run: echo "hello world"
     
-      - name: checking version
-      - run: |
+      - name: "checking version"
+        run: |
           node --version
           npm --version
 
