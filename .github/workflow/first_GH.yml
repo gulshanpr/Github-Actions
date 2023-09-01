@@ -1,0 +1,17 @@
+name: testing my first GH
+
+on: push
+
+jobs:
+  testing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print hello world
+      - run: echo "hello world"
+    
+      - name: checking version
+      - run: |
+          node --version
+          npm --version
+
+          
